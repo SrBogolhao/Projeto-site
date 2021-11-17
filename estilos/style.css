@@ -2,10 +2,10 @@
     font-family: arial, helvetica, sana-serif;
     font-size: 16px; 
 }
-body {
+.body {
     background-color: blue;
 }
-main {
+.main {
     background-color: pink;
     width: 500px;
     margin:auto;
