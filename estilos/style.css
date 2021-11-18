@@ -12,14 +12,3 @@ main{
     padding: 10px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.212);
 }
-img {
-    float: left;
-    width: 10px;
-}
-img.icone {
-    background-color: yellow;
-    width: 250px;
-    margin: auto;
-    border: 10px;
-    padding: auto;
-}
