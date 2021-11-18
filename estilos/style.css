@@ -15,3 +15,9 @@ main{
 img.lado {
     float: left;
 }
+img {
+    margin:auto;
+    border: 80%;
+    padding:60%;
+    width: 150px;
+}
