@@ -13,5 +13,8 @@ main{
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.212);
 }
 img.lado {
-    float: ;
+    float: left;
+}
+.margin {
+    background-color: yellow;
 }
