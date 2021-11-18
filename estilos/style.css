@@ -5,9 +5,6 @@
 body{
     background-color: blue;
 }
-main.cabeçalho{
-    width: auto;
-}
 main{
     background-color: pink;
     width: 500px;
@@ -15,7 +12,7 @@ main{
     padding: 10px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.212);
 }
-img.lado {
+img {
     float: left;
 }
 img.icone {
