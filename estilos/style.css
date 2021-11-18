@@ -16,9 +16,9 @@ img {
     float: left;
 }
 img.icone {
-    margin:auto;
-    border: auto;
-    padding:160px, 500px;
-    width: 150px;
-    float: left;
+    background-color: yellow;
+    width: 250px;
+    margin: auto;
+    border: 10px;
+    padding: auto;
 }
