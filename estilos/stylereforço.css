@@ -3,20 +3,7 @@
     font-family: arial, helvetica, sans-serif;
     font-size: 16px; 
 }
-iframe{
-    width: 250px;
-    height: 150px;
-}
-article{
-    width: 500px;
-    height: 500px;
-    background-color: aqua;
-}
-p{
-    width: 250px;
-    height: 150px;
-}
-body{
+main{
     background-color: pink;
     width: 1500px;
     height: 1000px;
