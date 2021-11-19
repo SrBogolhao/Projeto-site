@@ -11,3 +11,6 @@ p.videos{
     width: 250px;
     height: auto;
 }
+body{
+    background-color: pink;
+}
