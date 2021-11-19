@@ -9,7 +9,7 @@ iframe{
 }
 article{
     width: 250px;
-    height: 150px;
+    height: auto;
     background-color: aqua;
 }
 body{
