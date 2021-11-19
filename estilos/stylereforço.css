@@ -12,13 +12,13 @@ main{
     height: auto;
 }
 article{
-    background-color: white;
+    background-color: aqua;
 }
 table{
 float: inline-end;
 }
 p{
-    background-color: black;
+    background-color: white;
     width: auto;
     height: auto;
 }
