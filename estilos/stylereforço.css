@@ -4,7 +4,7 @@
     font-size: 16px; 
 }
 body{
-    background-color: pink;
+    background-color: black;
 }
 main{
     background-color: aqua;
@@ -18,7 +18,7 @@ table{
 float: inline-end;
 }
 p{
-    background-color: white;
+    background-color: pink;
     width: auto;
     height: auto;
 }
@@ -26,4 +26,8 @@ iframe{
     
     width: 200px;
     height: 150px;
+}
+button{
+    width: 80px;
+    height: 30px;
 }
