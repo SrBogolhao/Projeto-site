@@ -13,4 +13,9 @@ p.videos{
 }
 body{
     background-color: pink;
+    width: 250px;
+    height: 500px;
+    margin: auto;
+    border: 500px;
+    padding: auto;
 }
