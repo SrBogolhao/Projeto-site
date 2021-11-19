@@ -10,6 +10,7 @@ iframe{
 p{
     width: 250px;
     height: auto;
+    background-color: aqua;
 }
 body{
     background-color: pink;
@@ -20,7 +21,8 @@ body{
     padding: auto;
 }
 table{
-    background-color: aqua;
+    background-color: yellow;
     width: auto;
     height: auto;
+
 }
