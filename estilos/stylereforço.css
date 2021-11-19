@@ -19,8 +19,8 @@ float: inline-end;
 }
 p{
     background-color: black;
-    width: 150px;
-    height: 100px;
+    width: auto;
+    height: auto;
 }
 iframe{
     width: 150px;
