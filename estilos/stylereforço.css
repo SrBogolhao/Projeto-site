@@ -15,11 +15,12 @@ article{
     background-color: white;
 }
 table{
-width: auto;
-height: auto;
+width: 1250px;
+height: 100px;
 }
 p{
-
+    width: 150px;
+    height: 100px;
 }
 iframe{
     width: 150px;
