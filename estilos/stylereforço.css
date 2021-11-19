@@ -8,8 +8,8 @@ body{
 }
 main{
     background-color: aqua;
-    width: 1500px;
-    height: 100px;
+    width: auto;
+    height: 1000px;
 }
 article{
 
