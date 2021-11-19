@@ -6,11 +6,20 @@
 body{
     background-color: pink;
 }
-{
-    background-color: pink;
-    width: 1600px;
+main{
+    background-color: aqua;
+    width: 1500px;
     height: 100px;
-    margin: auto;
-    border: 10px;
-    padding: auto;
+}
+article{
+
+}
+table{
+
+}
+p{
+
+}
+iframe{
+
 }
