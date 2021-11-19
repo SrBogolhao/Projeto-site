@@ -3,6 +3,7 @@
     font-size: 16px
 }
 img.icone {
+    margin-top: 5px;
     width: 100px;
     height: auto;
 }
@@ -22,15 +23,18 @@ img.revisa {
     border-style: none;
 }
 text {
-    font-size: 60px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin: none;
-    border: none;
+    font-size: 55px;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    margin: 20px;
+    border: 50px;
     padding: none;
 }
 div{
     width: auto;
     height: 70px;
+    margin: none;
+    border: 10px;
+    padding: 20px;
 }
 var{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -38,8 +42,22 @@ var{
 }
 img.BG {
     width: 1333px;
-    height: 370px;
+    height: 380px;
 }
-p.fundo {
-
+h1 {
+    margin: 1px;
+    width: 1000px;
+    height: 20px;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 200px;
+}
+html {
+    background-color: black;
+}
+head{
+    background-color: rgb(33, 32, 70);
+}
+body {
+    background-color: grey;
 }
