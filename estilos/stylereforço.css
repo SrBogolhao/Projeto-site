@@ -8,7 +8,7 @@ iframe{
     height: 150px;
 }
 p{
-    width: 250px;
+    width: auto;
     height: auto;
     background-color: aqua;
 }
