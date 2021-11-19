@@ -21,6 +21,7 @@ p{
     background-color: pink;
     width: auto;
     height: auto;
+    float: center;
 }
 iframe{
     
@@ -30,4 +31,19 @@ iframe{
 button{
     width: 80px;
     height: 30px;
+}
+section {
+    width: auto;
+    height: auto;
+    float: left;
+}
+aside {
+    width: auto;
+    height: auto;
+    float: right;
+}
+img.coluna {
+    width: 150px;
+    height: 542px;
+    float:left;
 }
