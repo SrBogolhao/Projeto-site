@@ -15,10 +15,10 @@ article{
     background-color: white;
 }
 table{
-width: 1250px;
-height: 100px;
+float: inline-end;
 }
 p{
+    background-color: black;
     width: 150px;
     height: 100px;
 }
