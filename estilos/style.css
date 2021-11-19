@@ -8,5 +8,6 @@ iframe{
     height: 150px;
 }
 h4{
-    
+    width: 250px;
+    height: auto;
 }
