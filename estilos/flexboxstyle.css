@@ -8,3 +8,31 @@
     background-color: aqua;
     margin: 5px;
 }
+div.flex_row {
+    max-width: 300px;
+    padding: 10px;
+    border: 2px solid yellow;
+    display: flex;
+    flex-direction: row;
+}
+div.flex_row-reverse {
+    max-width: 300px;
+    padding: 10px;
+    border: 2px solid rgb(234, 0, 255);
+    display: flex;
+    flex-direction: row-reverse;
+}
+div.flex_column {
+    max-width: 80px;
+    padding: 10px;
+    border: 2px solid rgb(7, 9, 139);
+    display: flex;
+    flex-direction: column;
+}
+div.flex_column-reverse {
+    max-width: 80px;
+    padding: 10px;
+    border: 2px solid rgb(255, 51, 0);
+    display: flex;
+    flex-direction: column-reverse;
+}
