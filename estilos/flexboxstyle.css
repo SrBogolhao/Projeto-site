@@ -7,6 +7,7 @@
 .item{
     background-color: aqua;
     margin: 5px;
+
 }
 div.flex_row {
     max-width: 300px;
@@ -35,4 +36,19 @@ div.flex_column-reverse {
     border: 2px solid rgb(255, 51, 0);
     display: flex;
     flex-direction: column-reverse;
+}
+.flex_wrap {
+    max-width: 80px;
+    padding: 10px;
+    border: 2px solid rgb(3, 175, 89);
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex_wrap-reverse {
+    max-width: 80px;
+    height: 10px;
+    padding: 50px;
+    border: 2px solid rgb(52, 161, 30);
+    display: flex;
+    flex-wrap: wrap-reverse;
 }
