@@ -1,71 +1,8 @@
 * {
     font-family: arial, helvetica, sans-serif;
     font-size: 16px
+
 }
-img.icone {
-    margin-top: 5px;
-    width: 100px;
-    height: auto;
-}
-main {
-    width: auto;
-    height: auto;
-    background-color: aqua;
-}
-button {
-    width: auto;
-    height: auto;
-    align-content: auto;
-}
-img.revisa {
-    width: 100px;
-    height: 30px;
-    border-style: none;
-}
-text {
-    font-size: 55px;
-    font-family: Impact, 'Arial Narrow Bold', sans-serif;
-    margin: 20px;
-    border: 50px;
-    padding: none;
-}
-div{
-    width: auto;
-    height: 70px;
-    margin: none;
-    border: 10px;
-    padding: 20px;
-}
-var{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    width: 50px;
-}
-img.BG {
-    width: 1333px;
-    height: 380px;
-}
-h1 {
-    margin: 1px;
-    width: 1000px;
-    height: 20px;
-    font-size: 30px;
-    text-align: center;
-    margin-left: 200px;
-}
-html {
-    background-color: black;
-}
-head{
-    background-color: rgb(33, 32, 70);
-}
-body {
-    background-color: grey;
-}
-.butoeshome {
-    margin: 10px;
-    border: 8px;
-    padding: 6px;
-    width: 4px;
-    height: 2px;
-    
+body{
+    background-color: rgb(100, 100, 100);
 }
