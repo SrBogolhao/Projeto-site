@@ -27,8 +27,9 @@
     width: 80%;
     margin: auto;
     padding: 30px;
-    background-color: #eff0f1;
-    height: 1000px;
+    background-color: #465869;
+    height: 100px;
+    margin-top: 100px;
 }
 .content h1 {
     margin-bottom: 30px;
@@ -60,4 +61,7 @@ figure {
       width: 20px;
       height: 20px;
       border: 2px solid white;
+  }
+  p{
+      color: blue;
   }
