@@ -12,22 +12,22 @@ a{
     text-decoration: none;
 }
 a:link {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 0, 0);
 }
   
   /* visited link */
 a:visited {
-    color: rgb(0, 89, 255);
+    color: rgb(0, 121, 129);
 }
   
   /* mouse over link */
 a:hover {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 119, 255);
 }
   
   /* selected link */
 a:active {
-    color: blue;
+    color: rgb(0, 204, 255);
 }
 ul{
     display: flex;
@@ -54,7 +54,7 @@ a.topcmenu{
     color: rgb(255, 255, 255);
 }
   /* mouse over link */
-a.topcmenu:hover {
+.topcmenu:hover {
     color: rgb(5, 5, 5);
 }
 Li:hover{
@@ -69,7 +69,8 @@ p{
 h1{
     color: aqua;
     border: 2px black;
-    width: 1000px;
+    width: 1300px;
     height: 30;
     text-align: center;
+    font-size: 50px;
 }
