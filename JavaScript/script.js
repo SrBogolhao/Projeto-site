@@ -16,7 +16,7 @@ window.alert("total, " + s);
 window.alert(`A resultado é ${s} senhor ${nome}`);
 document.write(`ola, ${nome}!seu nome tem ${nome.length} letras`);
 document.writeln(`seu nome maiusculas é ${nome.toUpperCase}`);
-document.writeln(`seu nome maiusculas é ${nome.toUlowerCase}`);
+document.writeln(`seu nome maiusculas é ${nome.toLowerCase}`);
 
 //.toFixed(2) fixa casa decimal
 //.replace('.',',') troca ponto por virgula
