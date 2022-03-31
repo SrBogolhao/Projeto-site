@@ -13,10 +13,10 @@ window.alert("total, " + s);
 //string(n) converte instring em numero
 
 //pay so rouder ${}
-window.alert('A resultado é ${s} senhor ${nome}');
-document.write("ola, ${nome}!seu nome tem ${nome.length} letras");
-document.writeln('seu nome maiusculas é ${nome.toUpperCase}');
-document.writeln('seu nome maiusculas é ${nome.toUlowerCase}');
+window.alert(`A resultado é ${s} senhor ${nome}`);
+document.write(`ola, ${nome}!seu nome tem ${nome.length} letras`);
+document.writeln(`seu nome maiusculas é ${nome.toUpperCase}`);
+document.writeln(`seu nome maiusculas é ${nome.toUlowerCase}`);
 
 //.toFixed(2) fixa casa decimal
 //.replace('.',',') troca ponto por virgula
