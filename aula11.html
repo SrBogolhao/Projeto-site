@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>detran</title>
+</head>
+<body>
+    <h1>sitema de multas</h1>
+    <input type="number" name="txtvel" id="txtvel">
+    <input type="button" value="verificar" onclick="calcular()">
+    <script>
+        var txtv = window.document.querySelector(`imput#txt`)
+        var res = window.document.querySelector(`div#res`)
+        var vel = Number(txtv.value)
+        res.innerHTM = `sua velocidade atual é de ${vel}KM/h`
+        if (vel > 60) {
+            res.innerHTML += `Voce esta <strong> MULTADO</strong>`
+        }
+        res.innerHTML += `<p>dirija sempre com cinto de segrança<p>`
+    </script>
+
+    <!--condicoes
+        if (se) else(se nao)
+        if(condição){
+            true
+        }else{
+            false
+        }
+    -->
+    
+    <!--condição aninhada
+        if (cond){
+            true
+        }else if(cond2){
+            true
+        }else{
+            false
+        }
+    -->
+
+</body>
+</html>
