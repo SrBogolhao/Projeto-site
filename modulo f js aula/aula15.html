@@ -9,8 +9,40 @@
 <body>
     
 <!--variaveis composta
-
+    let um = [5,8,4]
+    acrescentar espaço
+    num[3]=6
+    ou acrescenta no ultomo com
+    num.push[7]
+    para saber o comprimento
+    num.length
+    coloca os valores em ordem crescente
+    num. sort()
 -->
-    
+    <script>
+        let num = [5, 8, 2, 9, 3]
+        num.push(1)
+        num.sort()
+        console.log(num)
+        console.log(`nosso vetor é o ${num} posições`)
+    </script>
+    <script>
+        for(let pos = 0;pos <num.length;pos++){
+            console.log(num[pos])
+        }
+    </script>
+    <!--
+        exemplo
+        let valores = [8, 1, 7, 4, 2, 9]
+        for (let pos=0; pos < valores.length; pos++)
+        consol.log(`a posição ${pos} tem o valor ${valores[pos]}`)
+
+ou
+        for (let pos in valores){
+            console.log(`a posição ${pos} tem o valor ${valores[pos]}`)
+        }
+buscar valores 
+        num.indexOf(7) retorna 2
+    -->
 </body>
 </html>
