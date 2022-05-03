@@ -2,9 +2,23 @@
     font-family: arial, helvetica, sans-serif;
     font-size: 16px
 }
+body{
+    background-color: black;
+}
 h1{
-    background-color: rgb(40, 255, 136);
+    background-color: #00ca7d;
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 35px;
+    color: black;
+    margin: 5px;
+}
+button{
+    background-color: #00ca7d;
+    font-size: 20px;
+}
+a{
+    color: #00ca7d;
+    padding-left: 250px;
+    padding-right: 250px;
 }
