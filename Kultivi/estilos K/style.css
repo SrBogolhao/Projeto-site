@@ -2,6 +2,39 @@
     font-family: arial, helvetica, sans-serif;
     font-size: 16px
 }
+img#indexicone{
+    width: 25px;
+    height: 25px;
+}
+body,ul,li,p{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: arial;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.header{
+    background: blueviolet;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.menu{
+    display: flex;
+}
+.menu li{
+    margin-left: 10px;
+}
+.menu li a{
+    display: block;
+    padding: 10px;
+}
 body{
     background-color: black;
 }

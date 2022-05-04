@@ -86,6 +86,10 @@ img.baner{
     grid-row: 2;
     align-self: end;
 }
+a#icone{
+    padding-left: 10px;
+    padding-right: 10px;
+}
 @media (max-width: 600px){
     .grid1{
         grid-template-columns: repeat(2, 1fr);
@@ -98,3 +102,4 @@ img.baner{
         grid-row: auto;
     }
 }
+
