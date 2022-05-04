@@ -2,10 +2,6 @@
     font-family: arial, helvetica, sans-serif;
     font-size: 16px
 }
-img#indexicone{
-    width: 25px;
-    height: 25px;
-}
 body,ul,li,p{
     margin: 0px;
     padding: 0px;
@@ -54,4 +50,12 @@ a{
     color: #00ca7d;
     padding-left: 250px;
     padding-right: 250px;
+}
+a#icone{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+img#indexicone{
+    height: 40px;
+    width: 35px;
 }

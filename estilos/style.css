@@ -3,8 +3,8 @@
     font-size: 16px
 }
 #indexicone{
-    width: 25px;
-    height: 25px;
+    width: 35px;
+    height: 40px;
 }
 body,ul,li,p{
     margin: 0px;
@@ -85,10 +85,6 @@ img.baner{
     grid-column: 1;
     grid-row: 2;
     align-self: end;
-}
-a#icone{
-    padding-left: 10px;
-    padding-right: 10px;
 }
 @media (max-width: 600px){
     .grid1{
