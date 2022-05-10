@@ -76,10 +76,7 @@ iframe{
 }
 #buner{
     margin-left: 150px;
-}
-a:active>button{
-    background-color: aqua;
-}
+} 
 @media (max-width: 1300px){
     iframe{
         width: 900px;
