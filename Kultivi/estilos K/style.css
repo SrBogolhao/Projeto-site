@@ -77,3 +77,10 @@ iframe{
 #buner{
     margin-left: 150px;
 }
+@media (max-width: 600px){
+    iframe{
+        width: 600px;
+        height: 400px;
+        margin-left: 10pxpx;
+    }
+}
