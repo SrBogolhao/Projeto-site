@@ -81,7 +81,7 @@ iframe{
     iframe{
         width: 900px;
         height: 500px;
-        margin-left: 0px;
+        margin-left: 100px;
     }
     section{
         display: flex;
@@ -90,7 +90,7 @@ iframe{
     img#buner{
         width: 900px;
         height: 500px;
-        margin-left: 0px;
+        margin-left: 100px;
     }
     button{
         background-color: #00ca7d;
@@ -107,7 +107,7 @@ iframe{
         iframe{
             width: 700px;
             height: 400px;
-            margin-left: 0px;
+            margin-left: 50px;
         }
         section{
             display: flex;
@@ -116,7 +116,7 @@ iframe{
         img#buner{
             width: 700px;
             height: 400px;
-            margin-left: 0px;
+            margin-left: 50px;
         }
         button{
             background-color: #00ca7d;
@@ -133,7 +133,7 @@ iframe{
             iframe{
                 width: 480px;
                 height: 280px;
-                margin-left: 0px;
+                margin-left: 10px;
             }
             section{
                 display: flex;
@@ -142,7 +142,7 @@ iframe{
             img#buner{
                 width: 480px;
                 height: 280px;
-                margin-left: 0px;
+                margin-left: 10px;
             }
             button{
                 background-color: #00ca7d;
@@ -159,7 +159,7 @@ iframe{
                 iframe{
                     width: 300px;
                     height: 200px;
-                    margin-left: 0px;
+                    margin-left: 5px;
                 }
                 section{
                     display: flex;
@@ -168,7 +168,7 @@ iframe{
                 img#buner{
                     width: 300px;
                     height: 200px;
-                    margin-left: 0px;
+                    margin-left: 5px;
                 }
                 button{
                     background-color: #00ca7d;
