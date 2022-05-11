@@ -18,7 +18,7 @@ a{
     color: white;
 }
 .header{
-    background: blueviolet;
+    background: blue;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -36,7 +36,7 @@ a{
     padding: 10px;
 }
 body{
-    background-color: rgb(54, 54, 54);
+    background-color: rgb(0, 0, 0);
     margin-bottom: 100px;
 }
 img.baner{
@@ -85,6 +85,30 @@ img.baner{
     grid-column: 1;
     grid-row: 2;
     align-self: end;
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+button{
+    background: blue;
+    border: 110%;
+    border-color: aqua;
+}
+h1{
+    font-style: italic;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    margin: 2px;
+}
+h2{
+    text-align: center;
+    color: white;
+}
+p{
+    text-align: center;
+    color: white;
 }
 @media (max-width: 600px){
     .grid1{
