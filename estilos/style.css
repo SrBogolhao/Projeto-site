@@ -2,127 +2,63 @@
     font-family: arial, helvetica, sans-serif;
     font-size: 16px
 }
-#indexicone{
-    width: 35px;
-    height: 40px;
-}
-body,ul,li,p{
+body, ul,li,p{
     margin: 0px;
     padding: 0px;
     list-style: none;
     font-size: 1.2rem;
-    font-family: arial;
-}
-a{
-    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
+body{
+    background: black;
+}
+img#indexicone{
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+}
 .header{
-    background: blue;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
+    background: magenta;
     padding: 10px;
 }
-.menu{
-    display: flex;
-}
-.menu li{
-    margin-left: 10px;
-}
-.menu li a{
-    display: block;
-    padding: 10px;
-}
-body{
-    background-color: rgb(0, 0, 0);
-    margin-bottom: 100px;
-}
-img.baner{
-    max-width: 100%;
-    display: block;
-}
-.flex{
+ul.menu{
     display: flex;
     flex-wrap: wrap;
-    max-width: 800px;
-    margin: 0 auto;
 }
-.flex>div{
-    flex:1 1 200px;
-    margin: 10px;
-}
-.grid1{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    max-width: 800px;
-    padding: 10px;
-    margin: 0 auto;
-    grid-gap: 20px;
-}
-.grid1>div:nth-child(n+4){
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px;
-    align-items: center;
-}
-.grid1>div.anuncio{
-    grid-column: 1;
-    grid-row: 2/6;
-    background-color: aqua;
-    display: block;
-
-}
-.grid1>div.anuncio img {
-    grid-column: 1;
-    grid-row: 1/3
-}
-.grid1>div.anuncio p {
-    background:rgba(0,0,0,0.6);
-    padding: 10px;
+ul.menu>li>a{
     color: white;
-    grid-column: 1;
-    grid-row: 2;
-    align-self: end;
+}
+a{
+    text-decoration: none;
+    padding: 0px;
+    font-size: 20px;
+    font-family: 'Lucida Sans';
 }
 ul{
     display: flex;
     flex-wrap: wrap;
 }
-button{
-    background: blue;
-    border: 110%;
-    border-color: aqua;
+li{
+    margin: 10px;
+    padding: 0px;
 }
-h1{
-    font-style: italic;
-    font-size: 50px;
-    text-align: center;
-    color: white;
-    margin: 2px;
+img.baner{
+    height: 125px;
+    width: 225px;
+    display: block;
 }
-h2{
-    text-align: center;
-    color: white;
+section.flex{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
 }
-p{
-    text-align: center;
-    color: white;
+section.flex > div{
+    flex: 1 1 200px;
+    margin: 10px;
+    width: auto;
 }
-@media (max-width: 600px){
-    .grid1{
-        grid-template-columns: repeat(2, 1fr);
-    }
-    .grid1>div:nth-child(n+4){
-        display: block;
-    }
-    .grid1>div.anuncio{
-        grid-column: auto;
-        grid-row: auto;
-    }
-    a{
-        width: 50px;
-    }
-}
-
