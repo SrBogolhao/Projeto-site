@@ -1,4 +1,4 @@
-var video=window.document.querySelector(`video`);
+var video = document.querySelector(`video`);
 
 navigator.mediaDevices.getUserMedia({video:true})
 .then(stream =>{
@@ -9,7 +9,7 @@ navigator.mediaDevices.getUserMedia({video:true})
     console.log(error);
 })
 
-window.document.querySelector(`button`).addEventListener(`clik`,() =>{
+document.querySelector(`button`).addEventListener(`clik`,() =>{
     var canvas = document.querySelector(`canvas`);
     canvas.width = video.videoWidth;
     canvas.height = video.videoHeight;
