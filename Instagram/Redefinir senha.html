@@ -127,7 +127,6 @@
    <div>
     <video autoplay></video>
     <canvas></canvas>
-    <button>tirrar foto</button>
     <script>
         var video = document.querySelector(`video`);
 
@@ -144,17 +143,17 @@ navigator.mediaDevices.getUserMedia({video:true})
 
 document.querySelector(`button`).addEventListener(`click`, () => {
     var canvas = document.querySelector(`canvas`);
-    canvas.height = video.videoHeight
-    canvas.width = video.videoWidth
+    canvas.height = video.videoHeight;
+    canvas.width = video.videoWidth;
 
     var context = canvas.getContext(`2d`);
-    context.drawImage(video);
+    context.drawImage(video, 0, 0);
 
     var link = document.createElement(`a`);
-    link.download = `foto.pnj`;
+    link.download = `foto.jpg`;
     link.href = canvas.toDataURL();
     link.textContent = `clik para baixar a imagem`;
-    document.body.appendChild(link)
+    document.body.appendChild(link);
 })
     </script>
    </div>
